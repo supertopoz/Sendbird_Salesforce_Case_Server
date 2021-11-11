@@ -29,7 +29,7 @@ app.use(function(req, res, next) {
 //use user authentication token to autentiticate tokens below. 
 //Fetch all token types. 
 
-app.get('/', (req, res) => res.send('Server up and running!'));
+app.get('/', (req, res) => res.status(200).send('Server up and running!'));
 
 app.post("/createticket", checkHeaders, checkBody, authenticateUser, (async (req,res) => {
 
