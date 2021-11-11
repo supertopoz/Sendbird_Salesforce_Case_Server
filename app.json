@@ -1,5 +1,5 @@
 {
-    "name": "Sendbird - Salesforce - Case Create",
+    "name": "Sendbird SF Case Create",
     "description": "A barebones Node.js app using Express to create Salesforce Cases and Sendbird Channels",
     "repository": "https://github.com/heroku/node-js-getting-started",
     "logo": "https://node-js-sample.herokuapp.com/node.png",
