@@ -1,0 +1,36 @@
+{
+    "name": "Sendbird - Salesforce - Case Create",
+    "description": "A barebones Node.js app using Express to create Salesforce Cases and Sendbird Channels",
+    "repository": "https://github.com/heroku/node-js-getting-started",
+    "logo": "https://node-js-sample.herokuapp.com/node.png",
+    "keywords": ["node", "express", "static"],
+
+    "env": {
+        "SALEFORCE_URL": {
+            "description": "Contains your Salesforce domain - https://none532-dev-ed.my.salesforce.com",
+            "required": true
+        },
+        "SALESFORCE_API_VERSION": {
+            "description": "Version your Salesforce API is on - example - 41.0",
+            "value": "41.0",
+            "required": true
+        },
+        "SALESFORCE_SYSTEM_ADMINISTRATOR_EMAIL": {
+            "description": "Email of a Salesfore user with the role System Administator",
+            "required": true
+        },
+        "SALESFORCE_SYSTEM_ADMINISTRATOR_AUTH": {
+            "description": "System admin's password + access token with no space between them",
+            "required": true
+        },
+        "SENDBIRD_APP_ID": {
+            "description": "Found in front page of a Sendbird application, in your Sendbird Dashboard",
+            "required": true
+        },
+        "SENDBIRD_API_TOKEN": {
+            "description": "Found in the general setting of a Sendbird application, in your Sendbird Dashboard. Consider to use only sub api tokens",
+            "required": true
+        }
+
+    }
+}
